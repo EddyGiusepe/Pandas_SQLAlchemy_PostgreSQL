@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 
 # Meu Usuário é: postgres
 # Senha:  senhaEddy
-engine = create_engine("postgresql://postgres:Diosymispadres1#@localhost:5432/pruebas")
+engine = create_engine("postgresql://postgres:MINHASENHA#@localhost:5432/pruebas")
 
 df = pd.DataFrame([
     ["messi", "messi@argentina.com", "barcelona"],
